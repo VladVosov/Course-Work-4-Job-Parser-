@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "course-work-4-job-parser-"
+version = "0.1.0"
+description = ""
+authors = ["vlad_vosov <vlad.shvetesov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "course_work_4_job_parser_"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+pytest = "^7.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
